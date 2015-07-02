@@ -38,30 +38,8 @@ with con:
 	print "The cities that are warmest in July are:" ,
 	for i in df2.index:
    		print df2[0][i] + ", " + df2[1][i] + ", " ,
-   		
-	# July_func(data)
 
-	# print "The cities that are warmest in July are: " + df.ix[0][0] + ", " + df.ix[0][1]
-
-	# for i in data:
-		# print df.ix[i][0] + ", " + df.ix[i][1]
-
-	# for index, row in df.iterrows():
-		# print row[0] + ", " + row[1]
-		# print str.join(row)
-
-
-
-
-	# print "The cities that are warmest in July are:"
-	# {}".format(July_func(data))
-
-	# for x in data:
-		# print "The cities that are the warmest in July are: {}".format(str.join(x))
-
-	# print "The cities that are warmest in July are: {}".format(data)
-
-
+	
 
 
 
